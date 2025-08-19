@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: TestingBeret
+  name: TestBeret
+  description: Шапочка для тупых.
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Balls/football.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/wizardhelm.rsi
+    state: equipped-HELMET
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - ClothMade
+    - Recyclable
+    - HamsterWearable
+    - WhitelistChameleon
