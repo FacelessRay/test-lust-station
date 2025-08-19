@@ -1,0 +1,14 @@
+- type: entity
+  id: RayCrystalNew
+  parent: BaseItem
+  name: NewCrystal
+  description: Синее сияние.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/wrench.rsi
+    state: icon
+    noRot: true
+  - type: PointLight
+    radius: 20
+    energy: 40
+    color: "#2600ff"
