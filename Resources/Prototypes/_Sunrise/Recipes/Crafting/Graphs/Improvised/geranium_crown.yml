@@ -78,3 +78,25 @@
         doAfter: 6
   - node: SunflowerCrown
     entity: SunflowerCrown
+
+# Мои предметы
+
+- type: constructionGraph
+  id: RayCrystalGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: RayCrystal
+      steps:
+      - material: Steel
+        amount: 4
+        doAfter: 2
+      - tag: Geranium
+        name: construction-graph-tag-geranium
+        icon:
+          sprite: _Sunrise/Objects/Specific/Hydroponics/geranium.rsi
+          state: produce
+        doAfter: 2
+  - node: RayCrystal
+    entity: RayCrystal

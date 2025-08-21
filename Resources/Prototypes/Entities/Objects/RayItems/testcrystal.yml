@@ -1,7 +1,7 @@
 - type: entity
-  id: RayCrystalNew
+  id: RayCrystal
   parent: BaseItem
-  name: NewCrystal
+  name: RayCrystal
   description: Синее сияние.
   components:
   - type: Sprite
@@ -12,3 +12,6 @@
     radius: 20
     energy: 40
     color: "#2600ff"
+  - type: Construction
+    graph: RayCrystal
+    node: RayCrystal

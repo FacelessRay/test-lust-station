@@ -132,3 +132,15 @@
   # icon:
   #   sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
   #   state: coinshot
+
+#Мои рецепты
+
+- type: construction
+  name: RayCrystal
+  id: RayCrystal
+  graph: RayCrystalGraph
+  startNode: start
+  targetNode: RayCrystal
+  category: construction-category-misc
+  objectType: Item
+  description: Создай светящийся кристалл
